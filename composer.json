@@ -14,12 +14,18 @@
         }
     ],
     "require": {
-        "internal/upstream-configuration": "*"
+        "php": ">=7.1",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-recommended": "^9",
+        "pantheon-systems/drupal-integrations": "^8",
+        "drush/drush": "^10",
+        "cweagans/composer-patches": "^1.0",
+        "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "conflict": {
             "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "installer-paths": {
@@ -56,4 +62,5 @@
             "php": "7.3"
         }
     }
+
 }
