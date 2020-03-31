@@ -10,8 +10,8 @@
     ],
     "require": {
         "php": ">=7.1",
-        "drupal/core-composer-scaffold": "^8.8.1",
-        "drupal/core-recommended": "^8.8",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-recommended": "^9",
         "pantheon-systems/drupal-integrations": "^8",
         "drush/drush": "^10",
         "cweagans/composer-patches": "^1.0",
